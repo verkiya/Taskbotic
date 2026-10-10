@@ -13,6 +13,14 @@ const fontMono = Geist_Mono({
   variable: "--font-mono",
 })
 
+export const metadata = {
+  title: "Taskbotic",
+  description: "Your AI Teammate",
+  icons: {
+    icon: "/logo.svg",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
